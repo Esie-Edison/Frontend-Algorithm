@@ -1,11 +1,10 @@
 //Frontend Algorithms Task (Frontend Task 4)
 
-// ( 1 )
 // Write a function named "convertFahrToCelsius" that takes a single parameter and converts it to celsius
 convertFahrToCelsius = (Fahr) => {
 
   if (Fahr == null) {
-    console.log(`please Enter an input value of farenheit for conversion`)
+    console.log(`Please enter a farenheit value for conversion`)
   }
   else {
     let regex = /[a-zA-Z]/
@@ -29,7 +28,6 @@ convertFahrToCelsius = (Fahr) => {
   }
 
 }
-//Question 2 
 
 //Write a function named "checkYuGiOh" that takes a number, n, as an argument, creates an array of numbers from 1 to n and replaces multiples of 2, 3, and 5 with "yu", "gi" and "oh", then returns the resulting array.
 
